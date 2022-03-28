@@ -1,0 +1,170 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    color:white;
+    background-color: #010102;
+}
+
+#icone1{
+    position: relative;
+    top:10px;
+    transition: transform 1s;
+}
+
+#icone1:hover{
+     transform: scale(1.5,1.5);
+}
+
+h5{
+    padding: 5px;
+    font:bold 12px Caviar Dreams;
+}
+
+.noticias{
+    padding: 5px;
+    font:bold 20px Heavitas;
+}
+
+header{
+    color:white;
+    text-align:center;
+    background-color: black;
+}
+
+ul{
+    position: relative;
+    text-align: center;
+}
+
+li:hover{
+    transform: scale(1.5,1.5);
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    color: white; 
+    transition: -webkit-transform 1s;
+}
+
+section{
+    margin: 10px;
+    margin-top: 15px;
+    text-align: center;
+    max-width: 100%;
+}
+#titulo{
+    background-color: transparent;
+    text-shadow: 0px 4px 8px black;
+}
+
+article{padding: 10px;}
+
+section{
+    background-color: rgb(83, 83, 83);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+article>p{
+    max-width: 800px;
+    position: relative;
+    transform: translateX(30%);
+    text-align: justify;
+    
+}
+ 
+p>img{
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 8px;
+    max-width: 100%;
+    min-width: 320px;
+}
+
+footer{
+    background-color: rgb(37, 37, 37);
+    padding:10px;
+}
+
+footer>p{
+    color:white;
+    text-align: center;
+    font:bold 12px tahoma;
+}
+
+.opacity{
+    opacity: .5;
+    transition: opacity 1s ;
+}
+
+.opacity:hover{
+    opacity: 1;
+}
+@media (max-width:1115px){
+    p{
+    right: 12%;
+    }
+}
+
+@media (max-width:1000px){
+    p{
+    right: 20%;
+    }
+}
+
+
+@media (max-width:900px){
+    p{
+    right: 28%;
+    }
+
+}
+
+@media (max-width:850px){
+    p{
+    right: 30%;
+    }
+
+}
+
+    
+@media (max-width:412px){
+    p{   
+    right: 31%;
+    }
+
+}
+@media (max-width:370px){
+
+    p{
+    text-align: center;
+    right: 35%;
+    }
+
+}
+@media (max-width:347px){
+
+    p{
+    right: 37%;
+    }
+    p{
+   width: 320px;
+    }
+}
+
+
+
+@media (max-width:320px){
+
+    p>img{
+    right: 0%;
+    }
+
+}
+    
